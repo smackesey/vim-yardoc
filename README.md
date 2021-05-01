@@ -93,7 +93,7 @@ This "plugin" merely provides extensions to Vim's Ruby syntax and changes almost
 nothing in terms of the appearence of your Ruby documents. With the exception of
 YARD [tags](http://rubydoc.info/docs/yard/file/docs/Tags.md#Tag_List) and
 [directives](http://rubydoc.info/docs/yard/file/docs/Tags.md#Directive_List)
-, which are linked to `rubyTodo`, all yard related syntax groups are linked to
+, which are linked to `rubyKeyword`, all yard related syntax groups are linked to
 `Comment`. You may find yourself somewhat underwhelmed after installing it. This
 is intentional but, fear not, there are two good reasons for this posture.
 
@@ -101,7 +101,7 @@ The first reason is the desire to avoid making assumptions about which syntax
 groups should link to others. Since viturally nothing can be known about your
 particular configuration, except you're likely to have a Ruby syntax file in
 your `$VIMRUNTIME` directory, highlight links are only made against `Comment`
-and `rubyTodo` (as noted above).
+and `rubyKeyword` (as noted above).
 
 The second reason, in tandem with the first, is the desire to leave
 customization entirely up to you. This might be a bit off-putting for some but
